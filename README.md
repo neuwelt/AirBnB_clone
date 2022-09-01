@@ -12,12 +12,12 @@ A database or files that store data (data = objects)
 An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them)
  
 # Concepts to follow:
-Unittest
-Python packages
-Serialization/Deserialization
-*args, **kwargs
-datetime
-More coming soon!
+- Unittest
+- Python packages
+- Serialization/Deserialization
+  - *args, **kwargs
+  - datetime
+- More coming soon!
  
 # Steps
 The application is built in multiple step.
