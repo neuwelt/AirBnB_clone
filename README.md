@@ -1,4 +1,6 @@
-# Background
+# Project Description
+
+## Background
 The project is a simple copy of the AirBnB website.
  
 Airbnb: is an online accommodation booking solution for short and long term stay for travelers all over the world. It enables people travelling on budget to find decent and homely accommodation.
@@ -11,7 +13,7 @@ A website (the front-end) that shows the final product to everybody: static and 
 A database or files that store data (data = objects)
 An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them)
  
-# Concepts to follow:
+## Concepts to follow:
 - Unittest
 - Python packages
 - Serialization/Deserialization
@@ -19,7 +21,7 @@ An API that provides a communication interface between the front-end and your da
   - datetime
 - More coming soon!
  
-# Steps
+## Steps
 The application is built in multiple step.
 Each step links to a concept:
 The console
@@ -29,7 +31,7 @@ Web framework - templating
 RESTful API
 Web dynamic
  
-# Files and Directories
+## Files and Directories
 models directory contains all classes used for the entire project. A class, called “model” in a OOP project is the representation of an object/instance.
 tests directory contains all unit tests.
 console.py file is the entry point of our command interpreter.
@@ -38,11 +40,14 @@ attributes: id, created_at and updated_at
 methods: save() and to_json()
 models/engine directory contains all storage classes (using the same prototype).
  
-# Storage
+## Storage
 In this project, manipulates 2 types of storages: file and database.
 Separate “storage management” from “model” to make the models modular and independent. With this architecture, you can easily replace your storage system without re-coding everything everywhere.
 We use class attributes for all objects
  
 File storage == JSON serialization
 Here, we write in a file all objects/instances created/updated in the command interpreter and restore them when it starts.
+
+
+# Description of the command interpreter
 
